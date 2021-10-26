@@ -1,2 +1,12 @@
 # TugasPraktikumML_066-074
-Ini merupakan repository tugas kelompok pembelajaran mesin
+Anggota Kelompok :           
+- ELA EFRIYANTI     (201810370311066)
+- AALIYAH LUSIANTI  (201810370311074)
+
+Dataset yang digunakan dalam praktikum ini adalah dataset ASL Language yang didapatkan dari open source kaggle.com.
+Dalam dataset tersebut, Kumpulan data training berisi 87.000 gambar berukuran 200x200 pixel.
+Ada 29 kelas, 26 di antaranya untuk huruf A-Z dan 3 kelas untuk SPACE, DELETE dan NOTHING.
+3 kelas ini sangat membantu dalam aplikasi real-time, dan klasifikasi.
+Kumpulan data testing hanya berisi 29 gambar, untuk mendorong penggunaan gambar testing di dunia nyata.
+
+<img width="482" alt="ASL Lang" src="https://user-images.githubusercontent.com/64589800/138824570-78c10825-e839-4c89-bb6c-8329a22fea50.png">
