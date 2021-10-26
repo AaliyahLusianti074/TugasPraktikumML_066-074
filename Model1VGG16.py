@@ -55,7 +55,6 @@ model.add(Flatten())
 model.add(Dense(512, activation='sigmoid'))
 
 model.add(Dense(29, activation='softmax'))
-
 results(model)
 
 model.save('sign_lang.h5')
