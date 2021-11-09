@@ -30,4 +30,4 @@ Overfitting yang dilakukan antara lain :
 - Menerapkan Dropout
 - Menerpakan BatchNormalization
 - Model dengan beberapa variasi learning rate
-- Minimal 100 epoch per model
+- Menerapkan epoch per model
