@@ -21,3 +21,13 @@ MODELLING
 
 Build model dataset menjadi 2, yakni model VGG16 ( Model1VGG.py ) dan MaxPooling2D ( Model2MaxPooling.py ).
 Ditemukan akurasi sebesar 99% pada model VGG16 dan 75% pada model MaxPooling2D.
+
+OVERFITTING HANDLING
+
+Overfitting yang dilakukan antara lain :
+- Menerapkan proses Convolution
+- Menerapkan proses Pooling
+- Menerapkan Dropout
+- Menerpakan BatchNormalization
+- Model dengan beberapa variasi learning rate
+- Minimal 100 epoch per model
