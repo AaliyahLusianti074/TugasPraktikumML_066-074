@@ -24,7 +24,7 @@ Build model dataset menjadi 2, yakni model VGG16 dan MaxPooling2D.
 Ditemukan akurasi sebesar 99% pada model VGG16 dan 75% pada model MaxPooling2D.
 
 MODEL 1 - VGG 16
-![plot](https://user-images.githubusercontent.com/62975150/143670609-0869b11f-f1bc-4746-a621-84fac0006d80.JPG)
+<img width="482" src=https://user-images.githubusercontent.com/62975150/143670609-0869b11f-f1bc-4746-a621-84fac0006d80.JPG">
 
 
 # Evaluasi
