@@ -27,5 +27,8 @@ SUMMARY LAYER MODEL 1 - VGG 16
 
 ![plot222](https://user-images.githubusercontent.com/62975150/143670802-01643110-8d13-4a5b-a03a-8b983f0b06fd.jpg)
 
+SUMMARY LAYER MODEL 2 - MAXPOOLING
+
+![plot333](https://user-images.githubusercontent.com/62975150/143671363-5ba8325e-b594-4458-90b5-41e5e8eab8c9.jpg)
 
 # Evaluasi
