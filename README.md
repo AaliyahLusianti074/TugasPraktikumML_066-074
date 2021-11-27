@@ -14,7 +14,7 @@ Kumpulan data testing hanya berisi 29 gambar, untuk mendorong penggunaan gambar 
 
 # Preprocessing
 
-Preprocessing pada dataset ( PreprocessingData.py ) dilakukan dengan membagi data training dan data testing dengan perbandingan 9:1.
+Preprocessing pada dataset <a href="https://github.com/AaliyahLusianti074/TugasPraktikumML_066-074/blob/main/PreprocessingData.py">Preprocessing.py</a> dilakukan dengan membagi data training dan data testing dengan perbandingan 9:1.
 Kelas dataset memiliki 29 gambar terdiri dari gambar ASL huruf A sampai dengan Z serta 'nothing', 'space' dan 'del'.
 Pembagian dataset terbagi sebanyak 78300 gambar data training dan sisanya 8700 sebagai data testing dengan shape 32x32.
 
