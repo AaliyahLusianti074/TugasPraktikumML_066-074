@@ -25,7 +25,7 @@ Ditemukan akurasi sebesar 99% pada model VGG16 dan 75% pada model MaxPooling2D.
 
 SUMMARY LAYER MODEL 1 - VGG 16
 
-![plot222](https://user-images.githubusercontent.com/62975150/143670691-c93acde2-49c2-43f1-affa-d97650259194.jpg)
+![plot222](https://user-images.githubusercontent.com/62975150/143670802-01643110-8d13-4a5b-a03a-8b983f0b06fd.jpg)
 
 
 # Evaluasi
