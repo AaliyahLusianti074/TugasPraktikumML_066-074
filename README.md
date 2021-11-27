@@ -4,7 +4,7 @@ Anggota Kelompok :
 - AALIYAH LUSIANTI  (201810370311074)
 
 # Dataset
-Dataset yang digunakan  adalah ASL Language yang didapatkan dari open source <a href="https://www.kaggle.com/grassknoted/asl-alphabet">kaggle.com</a>.
+Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet">ASL Language</a> yang didapatkan dari open source kaggle.com.
 Dalam dataset tersebut, Kumpulan data training berisi 87.000 gambar berukuran 200x200 pixel.
 Ada 29 kelas, 26 di antaranya untuk huruf A-Z dan 3 kelas untuk SPACE, DELETE dan NOTHING.
 3 kelas ini sangat membantu dalam aplikasi real-time, dan klasifikasi.
