@@ -48,7 +48,11 @@ Model Convolutional Neural Network (CNN) yang digunakan pada dataset terbagi men
 ![graphm2_2](https://user-images.githubusercontent.com/62975150/143727335-97d7e2b9-9659-4fcb-afee-698218d7139e.jpg)
 
 ## Predict
-Hasil prediksi gambar dataset pada sample gambar
+Hasil prediksi gambar dataset pada sample gambar:
+-Hasil prediksi pada model 1 yang dilakukan pada gambar A_test.jpg menunjukkan hasil prediksi index [0] yang berarti menunujukkan huruf A, dilihat pada output berukut:
+
+![pred_1_1](https://user-images.githubusercontent.com/62975150/143729424-3c51748a-4a25-4942-811d-cbb6b1716b2a.jpg)
+
 
 
 
