@@ -1,5 +1,9 @@
 # Overview Jurnal
-Dataset yang digunakan dalam jurnal adalah <i>American Sign Language</i> bersumber dari Kaggle. Jurnal tersebut 
+Dataset yang digunakan dalam jurnal adalah <i>American Sign Language</i> bersumber dari Kaggle. Jurnal tersebut melakukan perbandingan allgoritma klasifikasi citra antara Convolutional Neural Network (CNN) dan Multilayer Perceptron (MLP) untuk mengenali bahasa isyarat alfabet American Sign Language. Metode preprocessing yang digunakan adalah Gaussian Low Pass Filtering dan Laplacian High Pass Filtering karena dapat menghilangkan noise dan mempertajam citra. Pada jurnal tersebut MLP dan CNN dibagi menjadi 3 versi yaitu tanpa preprocessing, dengan Gaussian Low Pass Filtering, dan dengan Laplacian Filtering. Hal ini dilakukan untuk mengetahui pengaruh jenis preprocessing terhadap performa yang dihasilkan. 2 versi model yang digunakan dalam CNN adalah :
+1. CNN-1 dengan 3 proses convolution, 2 proses pooling, 3 fully connected layer
+2. CNN-2 dengan 4 proses convolution, 2 proses pooling, 3 fully connected layer
+Parameter yang dibutuhkan adalah activation function, kernel size, tipe pooling, dan dropout. Sedangkan dense pada hidden layer menggunakan activation function ReLu dan Dense output layer menggunakan softmax.
+Dari algoritma CNN tersebut menghasilkan akurasi sebesar 96,97% dan F1 score 96,93%. sedangkan MLP mendapatkan akurasi terbaik 74,79% tanpa melalui preprocessing.
 
 ## Dataset
 Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet">ASL Language</a> yang didapatkan dari open source kaggle.com.
@@ -16,7 +20,7 @@ Preprocessing pada dataset <a href="https://github.com/AaliyahLusianti074/TugasP
 Kelas dataset memiliki 29 gambar terdiri dari gambar ASL huruf A sampai dengan Z serta 'nothing', 'space' dan 'del'.
 Pembagian dataset terbagi sebanyak 78300 gambar data training dan sisanya 8700 sebagai data testing dengan shape 32x32.
 
-# Modelling
+## Modelling
 
 Build model dataset menjadi 2, yakni model VGG16 dan MaxPooling2D.
 Ditemukan akurasi sebesar 99% pada model VGG16 dan 75% pada model MaxPooling2D.
