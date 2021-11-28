@@ -1,7 +1,16 @@
 # Overview Jurnal
 Dataset yang digunakan dalam jurnal adalah <i>American Sign Language</i> bersumber dari Kaggle. Jurnal tersebut melakukan perbandingan algoritma klasifikasi citra antara Convolutional Neural Network (CNN) dan Multilayer Perceptron (MLP) untuk mengenali bahasa isyarat alfabet American Sign Language. Metode preprocessing yang digunakan adalah Gaussian Low Pass Filtering dan Laplacian High Pass Filtering karena dapat menghilangkan noise dan mempertajam citra. Pada jurnal tersebut MLP dan CNN dibagi menjadi 3 versi yaitu tanpa preprocessing, dengan Gaussian Low Pass Filtering, dan dengan Laplacian Filtering. Hal ini dilakukan untuk mengetahui pengaruh jenis preprocessing terhadap performa yang dihasilkan. 2 versi model yang digunakan dalam CNN adalah :
 1. CNN-1 dengan 3 proses convolution, 2 proses pooling, 3 fully connected layer
+
+- Summary1 layer model CNN-1 ditunjukkan pada gambar berikut :
+
+![ha2](https://user-images.githubusercontent.com/62975150/143726115-90340add-1707-4fff-82ed-5daa645604a2.jpg)
+
 2. CNN-2 dengan 4 proses convolution, 2 proses pooling, 3 fully connected layer
+
+- Summary2 layer model CNN-2 MaxPooling2D ditunjukkan pada gambar berikut :
+
+![aaa](https://user-images.githubusercontent.com/62975150/143726046-e43a2161-65a1-4436-844f-53a2d7377049.jpg)
 
 Parameter yang dibutuhkan adalah activation function, kernel size, tipe pooling, dan dropout. Sedangkan dense pada hidden layer menggunakan activation function ReLu dan Dense output layer menggunakan softmax. Dari algoritma CNN tersebut menghasilkan akurasi sebesar 96,97% dan F1 score 96,93%. sedangkan MLP mendapatkan akurasi terbaik 74,79% tanpa melalui preprocessing.
 
@@ -18,7 +27,7 @@ Persentase perbandingan data training adalah 90% dan 10% data testing. Contoh da
 ## Modelling
 Model Convolutional Neural Network (CNN) yang digunakan pada dataset terbagi menjadi 2, yakni model VGG16 dan MaxPooling2D. 
 - Summary1 layer model CNN-1 ditunjukkan pada gambar berikut :
--
+
 ![ha2](https://user-images.githubusercontent.com/62975150/143726115-90340add-1707-4fff-82ed-5daa645604a2.jpg)
 
 
