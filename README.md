@@ -31,7 +31,7 @@ Model Convolutional Neural Network (CNN) yang digunakan pada dataset terbagi men
 ![plot222](https://user-images.githubusercontent.com/62975150/143670802-01643110-8d13-4a5b-a03a-8b983f0b06fd.jpg)
 
 - Matriks evaluation1 yang dihasilkan :
-- Graph akurasi1 dan 
+- Graph akurasi1 dan loss
 
 ![graphm1_1](https://user-images.githubusercontent.com/62975150/143727380-09073453-1297-40c1-9f00-3aecaba11ba4.jpg)
 
