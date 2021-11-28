@@ -6,7 +6,7 @@ Dataset yang digunakan dalam jurnal adalah <i>American Sign Language</i> bersumb
 Parameter yang dibutuhkan adalah activation function, kernel size, tipe pooling, dan dropout. Sedangkan dense pada hidden layer menggunakan activation function ReLu dan Dense output layer menggunakan softmax. Dari algoritma CNN tersebut menghasilkan akurasi sebesar 96,97% dan F1 score 96,93%. sedangkan MLP mendapatkan akurasi terbaik 74,79% tanpa melalui preprocessing.
 
 # Overview Dataset
-Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet">American Sign Language</a> yang didapatkan dari open source kaggle.com. Dalam dataset tersebut, Kumpulan data training berisi 87.000 gambar berukuran 200x200 pixel. Ada 29 kelas, 26 di antaranya untuk huruf A-Z dan 3 kelas untuk SPACE, DELETE dan NOTHING.
+Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet"><i>American Sign Language</i></a> yang didapatkan dari open source kaggle.com. Dalam dataset tersebut, Kumpulan data training berisi 87.000 gambar berukuran 200x200 pixel. Ada 29 kelas, 26 di antaranya untuk huruf A-Z dan 3 kelas untuk SPACE, DELETE dan NOTHING.
 3 kelas ini sangat membantu dalam aplikasi real-time, dan klasifikasi. Kumpulan data testing hanya berisi 29 gambar, untuk mendorong penggunaan gambar testing di dunia nyata.
 Persentase perbandingan data training adalah 90% dan 10% data testing. Contoh dataset ditunjukkan pada gambar berikut :
 
