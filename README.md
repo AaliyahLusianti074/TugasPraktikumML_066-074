@@ -33,7 +33,7 @@ Model Convolutional Neural Network (CNN) yang digunakan pada dataset terbagi men
 - Matriks evaluation1 yang dihasilkan :
 - Graph akurasi1 dan 
 
-![graphm1_1](https://user-images.githubusercontent.com/62975150/143727330-5b0db71e-39e7-4d0c-a61a-b39c707a56d1.jpg)
+![graphm1_1](https://user-images.githubusercontent.com/62975150/143727380-09073453-1297-40c1-9f00-3aecaba11ba4.jpg)
 
 - Summary2 layer model CNN-2 MaxPooling2D ditunjukkan pada gambar berikut :
 
