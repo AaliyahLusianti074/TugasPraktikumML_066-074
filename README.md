@@ -55,7 +55,8 @@ Hasil prediksi gambar dataset pada sample gambar:
 
 - Hasil prediksi pada model 2 yang dilakukan pada gambar C_test.jpg menunjukkan hasil prediksi index [2] yang berarti menunujukkan huruf C, dilihat pada output berukut:
 
-![pred2](https://user-images.githubusercontent.com/62975150/143729651-65e40139-9c42-4148-9429-2a46920082b7.JPG)
+![pred2_2](https://user-images.githubusercontent.com/62975150/143729687-3b9fc0e2-ec01-4c4b-bb3f-d524795ea820.jpg)
+
 
 
 
