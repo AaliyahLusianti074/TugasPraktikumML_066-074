@@ -1,7 +1,5 @@
-# Overview
-Anggota Kelompok :           
-- ELA EFRIYANTI     (201810370311066)
-- AALIYAH LUSIANTI  (201810370311074)
+# Overview Jurnal
+Dataset yang digunakan dalam jurnal adalah <i>American Sign Language</i> bersumber dari Kaggle. Jurnal tersebut 
 
 ## Dataset
 Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet">ASL Language</a> yang didapatkan dari open source kaggle.com.
