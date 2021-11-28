@@ -19,12 +19,16 @@ Persentase perbandingan data training adalah 90% dan 10% data testing. Contoh da
 Model Convolutional Neural Network (CNN) yang digunakan pada dataset terbagi menjadi 2, yakni model VGG16 dan MaxPooling2D. 
 - Summary1 layer model CNN-1 VGG16 ditunjukkan pada gambar berikut :
 
+
+
 ![plot222](https://user-images.githubusercontent.com/62975150/143670802-01643110-8d13-4a5b-a03a-8b983f0b06fd.jpg)
 
 - Matriks evaluation1 yang dihasilkan :
 - Graph akurasi1 dan loss1
 
 - Summary2 layer model CNN-2 MaxPooling2D ditunjukkan pada gambar berikut :
+
+![aaa](https://user-images.githubusercontent.com/62975150/143726046-e43a2161-65a1-4436-844f-53a2d7377049.jpg)
 
 ![ada](https://user-images.githubusercontent.com/62975150/143671447-fb40f149-7d06-4992-987e-d630b0ff5e19.jpg)
 
