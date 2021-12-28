@@ -2,9 +2,9 @@
 Dataset yang digunakan dalam <a href="http://www.scielo.org.mx/pdf/cys/v24n3/1405-5546-cys-24-03-1211.pdf">Jurnal Referensi</a> adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet"><i>American Sign Language</i></a> bersumber dari Kaggle. dataset terdiri dari 26 tanda alfabet ASL (dari
 A sampai Z) dan 3 kelas berlabel “SPACE”, “DEL” dan “NOTHING”. Jurnal berjudul <b>Siamese Convolutional Neural Network for ASL Alphabet Recognition</b> tersebut menggunakan dua model Convolutional Neural Network yang terdiri dari 8 convolutional dan 3 fully connected (Dense) layer. Training dilakukan dengan menggunakan Keras Tensorflow sebagai framework di Google Colab platform dengan GPU. Setelah 30 epoch, train_loss dan train_accuracy masing-masing 0.0164 dan 0.9870, dan mencapai val_loss dan val_accuracy 0,0245 dan 0,9764.
 
-- Summary layer model CNN ditunjukkan pada gambar berikut :
+Summary layer model CNN ditunjukkan pada gambar berikut :
 
-<img width="245" alt="yyy" src="https://user-images.githubusercontent.com/64589800/147534215-b050b2c8-0147-4272-b2d5-79481be8ae26.png">
+<img width="300" alt="yyy" src="https://user-images.githubusercontent.com/64589800/147534215-b050b2c8-0147-4272-b2d5-79481be8ae26.png">
 
 # Overview Dataset
 Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet"><i>American Sign Language</i></a> yang didapatkan dari open source kaggle.com. Dalam dataset tersebut, Kumpulan data training berisi 87.000 gambar berukuran 200x200 pixel. Ada 29 kelas, 26 di antaranya untuk huruf A-Z dan 3 kelas untuk SPACE, DELETE dan NOTHING.
