@@ -1,18 +1,10 @@
 # Overview Jurnal
-Dataset yang digunakan dalam jurnal adalah <i>American Sign Language</i> bersumber dari Kaggle. Jurnal tersebut melakukan perbandingan algoritma klasifikasi citra antara Convolutional Neural Network (CNN) dan Multilayer Perceptron (MLP) untuk mengenali bahasa isyarat alfabet American Sign Language. Metode preprocessing yang digunakan adalah Gaussian Low Pass Filtering dan Laplacian High Pass Filtering karena dapat menghilangkan noise dan mempertajam citra. Pada jurnal tersebut MLP dan CNN dibagi menjadi 3 versi yaitu tanpa preprocessing, dengan Gaussian Low Pass Filtering, dan dengan Laplacian Filtering. Hal ini dilakukan untuk mengetahui pengaruh jenis preprocessing terhadap performa yang dihasilkan. 2 versi model yang digunakan dalam CNN adalah :
-1. CNN-1 dengan 3 proses convolution, 2 proses pooling, 3 fully connected layer
+Dataset yang digunakan dalam <a href="http://www.scielo.org.mx/pdf/cys/v24n3/1405-5546-cys-24-03-1211.pdf">Jurnal Referensi</a> adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet"><i>American Sign Language</i></a> bersumber dari Kaggle. dataset terdiri dari 26 tanda alfabet ASL (dari
+A sampai Z) dan 3 kelas berlabel “SPACE”, “DEL” dan “NOTHING”. Jurnal berjudul <b>Siamese Convolutional Neural Network for ASL Alphabet Recognition</b> tersebut menggunakan dua model Convolutional Neural Network yang terdiri dari 8 convolutional dan 3 fully connected (Dense) layer. Training dilakukan dengan menggunakan Keras Tensorflow sebagai framework di Google Colab platform dengan GPU. Setelah 30 epoch, train_loss dan train_accuracy masing-masing 0.0164 dan 0.9870, dan mencapai val_loss dan val_accuracy 0,0245 dan 0,9764.
 
-- Summary1 layer model CNN-1 ditunjukkan pada gambar berikut :
+- Summary layer model CNN ditunjukkan pada gambar berikut :
 
-![ha2](https://user-images.githubusercontent.com/62975150/143726115-90340add-1707-4fff-82ed-5daa645604a2.jpg)
-
-2. CNN-2 dengan 4 proses convolution, 2 proses pooling, 3 fully connected layer
-
-- Summary2 layer model CNN-2 ditunjukkan pada gambar berikut :
-
-![aaa](https://user-images.githubusercontent.com/62975150/143726046-e43a2161-65a1-4436-844f-53a2d7377049.jpg)
-
-Parameter yang dibutuhkan adalah activation function, kernel size, tipe pooling, dan dropout. Sedangkan dense pada hidden layer menggunakan activation function ReLu dan Dense output layer menggunakan softmax. Dari algoritma CNN tersebut menghasilkan akurasi sebesar 96,97% dan F1 score 96,93%. sedangkan MLP mendapatkan akurasi terbaik 74,79% tanpa melalui preprocessing.
+<img width="245" alt="yyy" src="https://user-images.githubusercontent.com/64589800/147534215-b050b2c8-0147-4272-b2d5-79481be8ae26.png">
 
 # Overview Dataset
 Dataset yang digunakan  adalah <a href="https://www.kaggle.com/grassknoted/asl-alphabet"><i>American Sign Language</i></a> yang didapatkan dari open source kaggle.com. Dalam dataset tersebut, Kumpulan data training berisi 87.000 gambar berukuran 200x200 pixel. Ada 29 kelas, 26 di antaranya untuk huruf A-Z dan 3 kelas untuk SPACE, DELETE dan NOTHING.
